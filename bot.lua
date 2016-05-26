@@ -10,7 +10,7 @@ local bot_api_key = "204806786:AAGjImIi9oLH-clTxUyFrVl7EiLSTDw8rpA"
 local You = 112840592
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
-local start = [[ *Hi* ]]
+local start = [[  ]]
 
 -------
 
@@ -289,7 +289,7 @@ user = bot.username
 else
 user = msg.from.username
 end
-local text = "مرحبا بك يا ["..msg.from.first_name.."](www.telegram.me/"..user..")"
+local text = " *سلام*\n\n`به پیامرسان آرمین خوش آمدید`\n\n_لطفا پیام خود را ارسال کنید_ "
 sendMessage(msg.chat.id,text.."\n"..start,true,false,true)
 elseif msg.text == "/start" and is_add(msg) then
  	print(#add.id)
