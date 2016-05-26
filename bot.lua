@@ -6,34 +6,28 @@ JSON = require('dkjson')
 HTTPS = require('ssl.https')
 dofile('utilities.lua')
 ----config----
-local bot_api_key = "" --التوكم هنا
-local You =  --خلي ايدي حسابك
+local bot_api_key = "204806786:AAGjImIi9oLH-clTxUyFrVl7EiLSTDw8rpA" 
+local You = 112840592
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
-local start = [[ ]]
+local start = [[ *Hi* ]]
 
 -------
 
 ----utilites----
 local help = [[
 ➖➖➖➖➖➖➖➖➖➖➖
-*commands:*`for admin`
+*Commands:*`For Admin`
+
 `/ban` ✴️
-*حظر عضو من ارسال رساله بالرد على رسالته*
 `/unban` ✴️
-*فتح الحظر عن عضو عن طريق الرد على رسالته*
 `/users` ✴️
-*معرفه عدد الاعضاء المشتركين*
 `/broadcast` ✴️
-*ارسل هذا الامر وكل رساله كانت بعده سترسل لجميع المشتركين*
 `/unbroadcast` ✴️
-*لكي تتوقف ارسال الرسائل وتفعيل الاوامر البقيه*
 `/start` ✴️
-*لأظهار رساله ترحيب للاعضاٱء*
 `/id` ✴️
-*بالرد على رساله موجهه يضهر لك المعلومات*
 ➖➖➖➖➖➖➖➖➖➖➖
-]]--اوامر المساعدة
+]]
 -------
 
 ----utilites----
