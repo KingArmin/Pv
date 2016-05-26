@@ -256,7 +256,7 @@ function bot_run()
 	if not ban then
 		ban = load_data('ban.db')
 	end
-	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.." \nBASED BY :- @DEV_MICO , @MALVOO"
+	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.." Admin: #ArminDev "
 
 	print(bot_info)
 	for k,v in pairs(add.id) do
